@@ -1,0 +1,35 @@
+.navbar {
+    background-color: black;
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15%;
+}
+
+.abstract {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.abstract p {
+    border-left: 1px solid white;
+    padding: 0 10px;
+}
+
+.navbar button {
+    padding: 6px 12px;
+    font-size: small;
+    background-color: #1e1e1e;
+    color: white;
+    font-weight: 500;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.navbar button:hover {
+    background-color: #2b2b2b;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.footer {
+    background-color: black;
+    height: 250px;
+    padding: 3% 8%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: white;
+}
+
+.links ul {
+    margin: 8px 0;
+    padding: 1px;
+}
+
+.links ul li {
+    list-style: none;
+    font-size: small;
+    color: lightgray;
+    margin-top: 3px;
+}
+
+.copywrite {
+    align-self: flex-end;
+}
+
+.copywrite p{
+    margin-top: 8px;
+    font-size: small;
+    color: lightgray;
+}
